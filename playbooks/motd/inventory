@@ -1,0 +1,5 @@
+[all]
+ansible.rh.demo
+managed.rh.demo
+managed1.rh.demo
+managed2.rh.demo
