@@ -1,0 +1,20 @@
+-s silent не будет отображать что загрузка пошла и тд, для грепа 
+| python -m json.tool - распарсить json
+-o /dev/null вывести htmp в /dev/null
+-D - = Техническая инфа вывести в stdout(-)
+-H 'Accept-Encoding: gzip' - передать хедер
+
+1xx - info
+2xx - success
+3xx - redirect
+4xx - client error
+5xx - server error
+
+headers:
+location - куда идти
+cahce control - сервер говорит клиенту как кэшировать данные
+content type - какой контент передаем
+content encoding\accept encoding - чем пожат контент
+user aget
+
+regexp101.com
